@@ -10,7 +10,7 @@
 
     <groupId>com.jamierf.dropwizard</groupId>
     <artifactId>dropwizard-logging-loggly</artifactId>
-    <version>0.10-SNAPSHOT</version>
+    <version>1.0-campspot</version>
 
     <properties>
         <jdk.version>1.8</jdk.version>
@@ -111,15 +111,10 @@
     </repositories>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>central</id>
+            <name>campspot-releases</name>
+            <url>https://campspot.jfrog.io/campspot/libs-release-local</url>
         </repository>
     </distributionManagement>
 
